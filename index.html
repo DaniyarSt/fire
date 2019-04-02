@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center><img src="f1.jpg" id="f"></center>
+</body>
+<script>
+    i=0
+    setInterval(function () {
+      i+=1
+      if (i>9)  {
+          i=1
+      }
+     document.getElementById('f').src="f"+i+".jpg"
+         }, 100)
+
+</script>
+</html>
